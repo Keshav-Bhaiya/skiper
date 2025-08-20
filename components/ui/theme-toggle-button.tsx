@@ -33,7 +33,6 @@ export default function ThemeToggleButton({
     if (typeof window === "undefined") return
 
     let styleElement = document.getElementById(styleId) as HTMLStyleElement
-
     console.log("style ELement", styleElement)
     console.log("name", name)
 
@@ -65,7 +64,7 @@ export default function ThemeToggleButton({
     }
 
     document.startViewTransition(switchTheme)
-  }, [theme, setTheme])
+  }, [theme, setTheme, variant, start, url, updateStyles])
 
   return (
     <Button
