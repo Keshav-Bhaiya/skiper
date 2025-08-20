@@ -4,7 +4,7 @@ import { useState } from "react"
 const NavPart1 = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  const handleLogoClick = (e) => {
+  const handleLogoClick = (e: React.ChangeEvent<HTMLInputElement>) => {
     e.preventDefault()
     window.scrollTo({
       top: 0,

@@ -1,29 +1,42 @@
 import WrapButton from "@/components/ui/wrap-button"
 import { Globe } from "lucide-react"
+import Image from "next/image"
 
 const HeroContent = () => {
   return (
     <div className=" min-h-[80vh] overflow-hidden bg-white dark:bg-black  pt-13 sm:pt-16 md:pt-0">
       {/* Background Images */}
-      <img
-        className="absolute w-16 sm:w-20 md:w-24 lg:w-28 xl:w-32 2xl:w-36 top-48 sm:top-60 md:top-72 lg:top-80 xl:top-96 left-0 opacity-30 dark:opacity-20 transition-opacity duration-300"
+      <Image
+        className="absolute w-16 sm:w-20 md:w-24 lg:w-28 xl:w-32 2xl:w-24 top-48 sm:top-60 md:top-72 lg:top-80 xl:top-88 left-0 opacity-30 dark:opacity-8 transition-opacity duration-300"
         src="https://skiper-ui.com/bg/bg_1.svg"
-        alt=""
+        alt="Background decoration"
+        width={144}
+        height={144}
+        priority={false}
+        unoptimized={true}
       />
-      <img
-        className="absolute w-16 sm:w-20 md:w-24 lg:w-28 xl:w-32 2xl:w-36 right-0 top-48 sm:top-60 md:top-72 lg:top-80 xl:top-96 opacity-30 dark:opacity-20 transition-opacity duration-300"
+      <Image
+        className="absolute w-16 sm:w-20 md:w-24 lg:w-28 xl:w-32 2xl:w-24 right-0 top-48 sm:top-60 md:top-72 lg:top-80 xl:top-88 opacity-30 dark:opacity-8 transition-opacity duration-300"
         src="https://skiper-ui.com/bg/bg_2.svg"
-        alt=""
+        alt="Background decoration"
+        width={144}
+        height={144}
+        priority={false}
+        unoptimized={true}
       />
 
       {/* Main Content */}
       <div className="flex flex-col items-center px-4 sm:px-6 lg:px-8 xl:px-12 py-8 sm:py-12 md:py-16 lg:py-20 xl:py-24">
         {/* Product Hunt Badge */}
         <div className="mb-6 sm:mb-8 md:mb-10 lg:mb-12 xl:mb-14">
-          <img
+          <Image
             className="h-9 sm:h-8 md:h-9 lg:h-10 w-auto transition-all duration-300 hover:opacity-80 hover:scale-105"
             src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=806890&theme=light&t=1737565356562"
             alt="Product Hunt Featured"
+            width={250}
+            height={54}
+            priority={true}
+            unoptimized={true}
           />
         </div>
 
