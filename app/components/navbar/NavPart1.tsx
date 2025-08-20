@@ -4,13 +4,14 @@ import { useState } from "react"
 const NavPart1 = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  const handleLogoClick = (e: React.ChangeEvent<HTMLInputElement>) => {
+   const handleLogoClick: React.MouseEventHandler<HTMLAnchorElement> = (e) => {
     e.preventDefault()
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
     })
   }
+
 
   return (
     <div className="flex items-center gap-2 sm:gap-4 lg:gap-6">
