@@ -7,7 +7,7 @@ const HeroContent = () => {
     <div className=" min-h-[80vh] overflow-hidden bg-white dark:bg-black  pt-13 sm:pt-16 md:pt-0">
       {/* Background Images */}
       <Image
-        className="absolute w-16 sm:w-20 md:w-24 lg:w-28 xl:w-32 2xl:w-24 top-48 sm:top-60 md:top-72 lg:top-80 xl:top-88 left-0 opacity-30 dark:opacity-8 transition-opacity duration-300"
+        className="absolute w-16 sm:w-20 md:w-24 lg:w-28 xl:w-32 2xl:w-36 top-48 sm:top-60 md:top-72 lg:top-80 xl:top-96 left-0 opacity-30 dark:opacity-20 transition-opacity duration-300"
         src="https://skiper-ui.com/bg/bg_1.svg"
         alt="Background decoration"
         width={144}
@@ -16,7 +16,7 @@ const HeroContent = () => {
         unoptimized={true}
       />
       <Image
-        className="absolute w-16 sm:w-20 md:w-24 lg:w-28 xl:w-32 2xl:w-24 right-0 top-48 sm:top-60 md:top-72 lg:top-80 xl:top-88 opacity-30 dark:opacity-8 transition-opacity duration-300"
+        className="absolute w-16 sm:w-20 md:w-24 lg:w-28 xl:w-32 2xl:w-36 right-0 top-48 sm:top-60 md:top-72 lg:top-80 xl:top-96 opacity-30 dark:opacity-20 transition-opacity duration-300"
         src="https://skiper-ui.com/bg/bg_2.svg"
         alt="Background decoration"
         width={144}

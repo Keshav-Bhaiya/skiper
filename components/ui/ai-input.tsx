@@ -88,9 +88,9 @@ export default function AiInput() {
     e.preventDefault()
     e.stopPropagation()
     if (fileInputRef.current) {
-      fileInputRef.current.value = "" // Reset file input
+      fileInputRef.current.value = ""
     }
-    setImagePreview(null) // Use null instead of empty string
+    setImagePreview(null)
   }
 
   const handelChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -112,6 +112,7 @@ export default function AiInput() {
       }
     }
   }, [imagePreview])
+
   return (
     <div className="w-full py-4">
       <div className="relative max-w-xl border rounded-[22px] border-black/5 p-1 w-full mx-auto">
