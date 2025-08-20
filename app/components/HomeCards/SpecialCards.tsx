@@ -1,4 +1,3 @@
-import BadgeButton from "@/components/ui/badge-button"
 import { SkiperCard } from "@/components/ui/skiper-card"
 import card4 from '/public/images/card4.webp'
 import card5 from '/public/images/card5.webp'

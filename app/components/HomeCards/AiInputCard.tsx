@@ -1,9 +1,8 @@
-"use client";
+'use client';
 import AiInput from "@/components/ui/ai-input";
-import BadgeButton from "@/components/ui/badge-button";
 import { useEffect } from "react";
 import { animate, motion, useMotionValue, useTransform } from "framer-motion";
-import { SparkleIcon, Sparkles } from "lucide-react";
+import { Sparkles } from "lucide-react";
 
 const AiInputCard = () => {
   const count = useMotionValue(0);
