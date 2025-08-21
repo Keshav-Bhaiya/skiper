@@ -4,10 +4,10 @@ import Image from "next/image"
 
 const HeroContent = () => {
   return (
-    <div className=" min-h-[80vh] overflow-hidden bg-white dark:bg-black  pt-13 sm:pt-16 md:pt-0">
+    <div className=" min-h-[50vh] overflow-hidden bg-white dark:bg-black  pt-13 sm:pt-16 md:pt-0">
       {/* Background Images */}
       <Image
-        className="absolute w-16 sm:w-20 md:w-24 lg:w-28 xl:w-32 2xl:w-36 top-48 sm:top-60 md:top-72 lg:top-80 xl:top-96 left-0 opacity-30 dark:opacity-20 transition-opacity duration-300"
+        className="absolute w-8 sm:w-20 md:w-24 lg:w-28 xl:w-32 2xl:w-25 top-52 sm:top-60 md:top-72 lg:top-80 xl:top-88 left-0 opacity-80 dark:opacity-9 transition-opacity duration-300"
         src="https://skiper-ui.com/bg/bg_1.svg"
         alt="Background decoration"
         width={144}
@@ -16,7 +16,7 @@ const HeroContent = () => {
         unoptimized={true}
       />
       <Image
-        className="absolute w-16 sm:w-20 md:w-24 lg:w-28 xl:w-32 2xl:w-36 right-0 top-48 sm:top-60 md:top-72 lg:top-80 xl:top-96 opacity-30 dark:opacity-20 transition-opacity duration-300"
+        className="absolute w-8 sm:w-20 md:w-24 lg:w-28 xl:w-32 2xl:w-25 right-0 top-52 sm:top-60 md:top-72 lg:top-80 xl:top-88 opacity-80 dark:opacity-9 transition-opacity duration-300"
         src="https://skiper-ui.com/bg/bg_2.svg"
         alt="Background decoration"
         width={144}
@@ -42,10 +42,10 @@ const HeroContent = () => {
 
         {/* Main Headlines */}
         <div className="text-center space-y-1 sm:space-y-2 md:space-y-3 lg:space-y-4 mb-6 sm:mb-8 md:mb-10 lg:mb-12">
-          <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-black/80 dark:text-white/80 leading-tight font-bold tracking-tight">
+          <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-black/80 dark:text-white/80  font-bold tracking-tight">
             Components crafted for
           </h1>
-          <h2 className="text-4xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-8xl font-bold bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 dark:from-white dark:via-gray-200 dark:to-white bg-clip-text text-transparent ">
+          <h2 className="text-4xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-8xl font-bold bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 dark:from-white dark:via-gray-200 dark:to-white bg-clip-text tracking-tight text-transparent ">
             Modern Websites
           </h2>
         </div>

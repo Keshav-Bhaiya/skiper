@@ -12,7 +12,7 @@ import Footer from './components/HomeCards/Footer'
 
 const page = () => {
   return (
-    <div >
+    <div>
       <Navbar/>
       <HeroContent/>
       <CardCarouselParent/>

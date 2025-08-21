@@ -127,12 +127,22 @@
     @apply bg-background text-foreground;
   }
 
-  /* Fixed CSS syntax by removing problematic button styling */
   html {
     @apply overflow-x-hidden;
     scroll-behavior: smooth;
   }
+
+  /* 🚫 Hide scrollbar globally */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  html, body {
+    -ms-overflow-style: none;  /* IE & old Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
 }
+
 
 /* Added Skiper UI responsive utilities */
 @layer utilities {
