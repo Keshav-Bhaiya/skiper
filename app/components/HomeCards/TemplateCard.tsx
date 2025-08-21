@@ -156,8 +156,9 @@ const TemplateCard = () => {
 
         {/* Text */}
         <p className="text-sm sm:text-base lg:text-lg opacity-70 text-center lg:text-left leading-relaxed max-w-sm lg:max-w-none">
-          of Next.js SaaS Products look similar, right? Let's change the approach.
-        </p>
+  of Next.js SaaS Products look similar, right? Let&apos;s change the approach.
+</p>
+
       </div>
 
       {/* Bottom Message Section */}

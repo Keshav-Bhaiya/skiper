@@ -103,10 +103,10 @@ const AiInputCard = () => {
             </svg>
           </div>
 
-          <p className="text-sm  sm:text-lg opacity-70 text-center sm:text-left">
-            of users judge a business's credibility by its website design
-            quality.
-          </p>
+          <p className="text-sm sm:text-lg opacity-70 text-center sm:text-left">
+  of users judge a business&apos;s credibility by its website design quality.
+</p>
+
         </div>
 
         <div className="items-center dark:text-neutral-100 justify-center gap-2 text-black text-base sm:text-lg md:text-2xl lg:text-3xl text-center px-4">
